@@ -1,0 +1,34 @@
+def celsuis_to_fahrenheit(degrees: int) -> float:
+    """Convert degrees Celsuis to degrees Farenheit."""
+    return (degrees * 9 / 5) + 32
+
+
+"""Function Definition, Function Signature"""
+"""def name_of_function(parameter: type) -> returnType:
+        '''Docstring description of the function.'''
+        return expression_of_type_returnType"""
+
+"""Function Call"""
+"""name_of_function(argument=value)"""
+
+
+def perimeter(length: float, width: float) -> float:
+    """Calculate the perimeter of a rectangle"""
+    return (length + width) * 2
+
+
+"print(name_of_function())"
+
+
+def fuel_needed(distance: int, mpg: int) -> float:
+    distance / mpg
+
+
+def total_fuel_cost(distance: int, mpg: int, price_per_gallon: int) -> float:
+    return fuel_needed(distance=distance, mpg=mpg) * price_per_gallon
+
+
+print(total_fuel_cost(distance=300, mpg=25, price_per_gallon=4))
+
+
+print(tea_bags(people=334))
