@@ -24,7 +24,7 @@ def main_planner(guests: int) -> None:
     print("Tea Bags: " + str(tea_bags(people=guests)))
     print("Treats: " + str(treats(people=guests)))
     print(
-        "Cost: "
+        "Cost: $"
         + str(
             cost(tea_count=tea_bags(people=guests), treat_count=treats(people=guests))
         )
